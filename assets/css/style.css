@@ -44,9 +44,6 @@ table {
 	border-spacing: 0;
 }
 
-button {
-}
-
 /* reset end */
 
 /* General CSS styling */
@@ -58,34 +55,10 @@ body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-header {
-
-}
-
-main {
-
-}
-
-section {
-
-}
-
-article {
-	
-}
-
 h1 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 32px;
 	line-height: 40px;
-}
-
-h2 {
-
-}
-
-h3 {
-
 }
 
 p {
@@ -101,14 +74,6 @@ input {
 	color: #777777;
 	padding: 6px;
 	font-size: 16px;
-}
-
-a {
-
-}
-
-img {
-
 }
 
 .wrapper-main {
@@ -191,18 +156,6 @@ img {
 	font-size: 16px;
 }
 
-.nav-bar .about-link {
-	/* border-right: 2px solid #666666; */
-}
-
-.nav-bar .contact-link {
-	/* border-right: 2px solid #666666; */
-}
-
-.nav-bar .portfolio-link {
-	
-}
-
 .vertical-border-line {
 	border-right: 1px solid #cccccc;
 	height: 20px;
@@ -222,10 +175,6 @@ img {
 	margin: 20px 25px 20px 0px;
 }
 
-.biography {
-
-}
-
 /* About page styling end */
 
 /* Contact page css styling */
@@ -241,26 +190,6 @@ img {
 
 .contact-form .input {
 	margin-top: 10px;
-}
-
-.contact-form .name-label {
-
-}
-
-.contact-form .name-input {
-	
-}
-
-.contact-form .email-label {
-
-}
-
-.contact-form .email-input {
-
-}
-
-.contact-form .message-label {
-
 }
 
 .contact-form .message-input {
