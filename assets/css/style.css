@@ -351,8 +351,8 @@ img {
 		width: 100%;
 		margin-left: 0;
 		margin-right: 0;
-		flex-direction: column;
-		/* justify-content: space-between; */
+		/* flex-direction: column; */
+		justify-content: space-around;
 		align-items: center;
 	}
 
@@ -367,6 +367,17 @@ img {
 		align-items: center;
 	}
 	
+}
+
+@media screen and (max-width: 700px) {
+	.nav-bar {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		flex-direction: column;
+		/* justify-content: space-around; */
+		align-items: center;
+	}
 }
 
 @media screen and (max-width: 640px) {
@@ -399,6 +410,11 @@ img {
 	.portfolio-display-row {
 		display: flex;
 		flex-direction: column;
+	}
+
+	.project-title {
+		bottom: 50px;
+		padding: 10px;
 	}
 }
 
