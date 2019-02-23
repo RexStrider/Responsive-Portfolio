@@ -316,11 +316,18 @@ img {
 /* Media Queries */
 
 @media only screen and (max-width: 980px) {
+
+	/* General styling */
+
 	.wrapper-main {
 		width: 70%;
 		margin: 40px 15% 100px 15%;
 		padding: 30px;
 	}
+
+	/* General styling end */
+
+	/* Navigation bar styling */
 
 	.nav-bar {
 		width: 77%;
@@ -330,6 +337,10 @@ img {
 		align-items: center;
 	}
 
+	/* Navigation bar styling end */
+
+	/* About page styling */
+
 	.profile-picture-and-bio {
 		display: flex;
 		flex-direction: row;
@@ -337,21 +348,29 @@ img {
 		align-items: flex-start;
 	}
 
+	/* About page styling end */
+
 }
 
 /* @media screen and (max-width: 768px) { */
 @media screen and (max-width: 890px) {
+
+	/* General styling */
+
 	.wrapper-main {
 		width: 70%;
 		margin: 40px 10% 100px 10%;
 		padding: 30px;
 	}
 
+	/* General styling end */
+
+	/* Navigation bar styling */
+
 	.nav-bar {
 		width: 100%;
 		margin-left: 0;
 		margin-right: 0;
-		/* flex-direction: column; */
 		justify-content: space-around;
 		align-items: center;
 	}
@@ -360,39 +379,53 @@ img {
 		margin: 20px 0 20px 0;
 	}
 
+	/* Navigation bar styling end */
+
+	/* About page styling */
+
 	.profile-picture-and-bio {
 		display: flex;
 		flex-direction: column;
-		/* justify-content: space-between; */
 		align-items: center;
 	}
 	
+	/* About page styling end */
 }
 
 @media screen and (max-width: 700px) {
+
+	/* Navigation bar styling */
+
 	.nav-bar {
 		width: 100%;
 		margin-left: 0;
 		margin-right: 0;
 		flex-direction: column;
-		/* justify-content: space-around; */
 		align-items: center;
 	}
+
+	/* Navigation bar styling end */
 }
 
 @media screen and (max-width: 640px) {
+
+	/* General styling */
+
 	.wrapper-main {
 		width: 80%;
 		margin: 40px 5% 100px 5%;
 		padding: 30px;
 	}
 
+	/* General styling end */
+
+	/* Navigation bar styling */
+
 	.nav-bar {
 		width: 100%;
 		margin-left: 0;
 		margin-right: 0;
 		flex-direction: column;
-		/* justify-content: space-between; */
 		align-items: center;
 	}
 
@@ -400,13 +433,20 @@ img {
 		margin: 20px 0 20px 0;
 	}
 
+	/* Navigation bar styling end */
+
+	/* About page styling */
+
 	.profile-picture-and-bio {
 		display: flex;
 		flex-direction: column;
-		/* justify-content: space-between; */
 		align-items: center;
 	}
+
+	/* About page styling end */
 		
+	/* Portfolio page styling */
+
 	.portfolio-display-row {
 		display: flex;
 		flex-direction: column;
@@ -416,8 +456,8 @@ img {
 		bottom: 50px;
 		padding: 10px;
 	}
+
+	/* Portfolio page styling end */
 }
-
-
 
 /* Media Queries end */
