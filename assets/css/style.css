@@ -240,6 +240,12 @@ input {
 	text-align: center;
 }
 
+#crystals-collector {
+	font-family: 'Indie Flower', cursive;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
 /* Portfolio page styling end */
 
 /* Media Queries */
